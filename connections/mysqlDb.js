@@ -9,7 +9,8 @@ const mysql = require('mysql');
 //     database: 'u603640889_nodefutur'
 // });
 const db = mysql.createConnection({
-    host: '127.0.0.1:3306',
+    host: 'coderzbar.info',
+    port: 3306, // MySQL
     user: 'u603640889_nodefutur',
     password: 'Coderzbar@123',
     database: 'u603640889_nodefutur'
