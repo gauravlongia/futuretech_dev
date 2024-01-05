@@ -9,10 +9,10 @@ const mysql = require('mysql');
 //     database: 'u603640889_nodefutur'
 // });
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'nodeapp'
+    host: '127.0.0.1:3306',
+    user: 'u603640889_nodefutur',
+    password: 'Coderzbar@123',
+    database: 'u603640889_nodefutur'
 });
 db.connect((err) => {
     if (err) throw err;
